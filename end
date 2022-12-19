@@ -1,0 +1,12 @@
+[1mdiff --git a/application/config/database.php b/application/config/database.php[m
+[1mindex 46ccd3f..68363dc 100644[m
+[1m--- a/application/config/database.php[m
+[1m+++ b/application/config/database.php[m
+[36m@@ -70,7 +70,6 @@[m [mdefined('BASEPATH') or exit('No direct script access allowed');[m
+ | The $query_builder variables lets you determine whether or not to load[m
+ | the query builder class.[m
+ */[m
+[31m-// config untuk database[m
+ $active_group = 'default';[m
+ $query_builder = TRUE;[m
+ [m
